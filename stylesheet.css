@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/*font-family: 'Raleway', sans-serif;*/
+
+body, html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+nav{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 150%;
+  background-color: #3C6255;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a:active {
+  color: lavender;
+  text-decoration: none;
+}
+
+header{
+  opacity: 70%;
+
+}
+
+footer{
+
+}
+
+#home{
+  
+
+}
+
+#kids{
+ 
+
+}
+
+#teens{
+ 
+
+}
+
+#adults{
+ 
+
+}
