@@ -4,60 +4,89 @@
 body, html {
     height: 100%;
     scroll-behavior: smooth;
+    background-color: black;
 }
 
 nav{
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  font-size: 150%;
-  background-color: #3C6255;
+  font-size: 120%;
+  background-color: #D4A373;
+  position: sticky;
+  top: 0;
+}
+
+/*nav pseudo styles*/
+a{
+  text-decoration: none;
 }
 
 a:link {
   color: black;
-  text-decoration: none;
 }
 
 a:visited {
   color: gray;
-  text-decoration: none;
 }
 
 a:hover {
   color: white;
-  text-decoration: none;
 }
 
 a:active {
   color: lavender;
-  text-decoration: none;
 }
 
 header{
   opacity: 70%;
+  background-image: url(placeholder1.jpeg);
+  color: white;
+  text-align: center;
+  padding: 5%;
 
 }
 
 footer{
+  color: white;
 
 }
 
+/*sub-section styles*/
 #home{
-  
+  background-color: #E9EDC9;
+  color: black;
+  padding: 5%;
+  text-align: justify;
 
 }
 
 #kids{
- 
+ background-color: #FEFAE0;
+ color: black;
+ padding: 5%;
+ text-align: justify;
 
 }
 
 #teens{
- 
+ background-color: #CCD5AE;
+ color: black;
+ padding: 5%;
+ text-align: justify;
 
 }
 
 #adults{
- 
+ background-color: #6E8773;
+ color: black;
+ padding: 5%;
+ text-align: justify;
 
+}
+
+/*styles per class*/
+.fit{
+   max-width: 100%; 
+   width: auto;
+   height: auto;
 }
