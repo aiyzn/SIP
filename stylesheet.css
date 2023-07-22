@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-/*font-family: 'Raleway', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Raleway:wght@400;700&family=VT323&display=swap');
+/*font-family: 'Jost', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'VT323', monospace;*/
 
 body, html {
     height: 100%;
@@ -8,12 +10,15 @@ body, html {
 }
 
 nav{
-  text-align: center;
+  text-align: left;
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 120%;
-  background-color: #D4A373;
-  position: sticky;
-  top: 0;
+  background-color: black;
+  color: white;
+  width: auto;
+  top: 0px;
+  padding: 1px;
 }
 
 /*nav pseudo styles*/
@@ -22,19 +27,19 @@ a{
 }
 
 a:link {
-  color: black;
-}
-
-a:visited {
-  color: gray;
-}
-
-a:hover {
   color: white;
 }
 
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #E9EDC9;
+}
+
 a:active {
-  color: lavender;
+  color: #FEFAE0;
 }
 
 header{
@@ -43,12 +48,12 @@ header{
   color: white;
   text-align: center;
   padding: 5%;
-
+  font-family: 'Raleway', sans-serif;
 }
 
 footer{
   color: white;
-
+  font-family: 'Raleway', sans-serif;
 }
 
 /*sub-section styles*/
@@ -57,7 +62,8 @@ footer{
   color: black;
   padding: 5%;
   text-align: justify;
-
+  width: auto;
+  height: auto;
 }
 
 #kids{
@@ -65,6 +71,9 @@ footer{
  color: black;
  padding: 5%;
  text-align: justify;
+ animation-name: example;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
 
 }
 
@@ -89,4 +98,32 @@ footer{
    max-width: 100%; 
    width: auto;
    height: auto;
+}
+
+.font-gen{
+  font-size: 120%;
+  font-family: 'Jost', sans-serif;
+}
+
+.font-kid{
+  font-size: 150%;
+  font-family: 'VT323', monospace;
+}
+
+.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+.overflow{
+  overflow: scroll;
+}
+
+/*animation*/
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
 }
