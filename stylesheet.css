@@ -98,6 +98,7 @@ footer{
    max-width: 100%; 
    width: auto;
    height: auto;
+   display: inline-block;
 }
 
 .font-gen{
@@ -117,7 +118,11 @@ footer{
 }
 
 .overflow{
+  max-width: 300px;
+  max-height: 300px;
+  padding: 3%;
   overflow: scroll;
+  display: inline-block;
 }
 
 /*animation*/
